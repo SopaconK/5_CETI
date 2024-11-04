@@ -1,0 +1,636 @@
+<mxfile host="Electron" modified="2024-10-25T15:45:31.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NADfvLbo9BhfJvAiPwUu" version="24.2.5" type="device">
+  <diagram name="Página-1" id="fPFEw5NdtSf7sHTZW1SJ">
+    <mxGraphModel dx="11200" dy="5420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="5000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Sociedad y Cultura&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1930" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ciencia,Tecnologia e Interacciones sociales&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ciencia, Tecnologia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1030" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Herramientas para entender y transformar el mundo.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1040" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-5" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Buscan mejorar la calidad de vida.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1100" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Involucran desarrollo de conocimientos y creación de herramientas útiles para resolver problemas.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1170" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="970" as="sourcePoint" />
+            <mxPoint x="1130" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1110" as="sourcePoint" />
+            <mxPoint x="1130" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Impacto en la Sociedad&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Comunicación: Facilitan la conexión a nivel global, rompiendo barreras de distancia.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1260" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-14" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Trabajo y Educación: Cambian la forma en que aprendemos y trabajamos, promoviendo la educación a distancia y nuevas profesiones.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1330" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Riesgos Éticos y Culturales: Generan nuevos dilemas sobre privacidad, manipulación de información, y diferencias culturales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1420" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1330" as="sourcePoint" />
+            <mxPoint x="1120" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1420" as="sourcePoint" />
+            <mxPoint x="1110" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Interacciones Sociales&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-20" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Dinamismo Cultural: La tecnología permite el intercambio cultural y fomenta una sociedad global.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1530" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Nuevas Formas de Relacionarse: Las redes sociales y plataformas digitales transforman las relaciones personales y comunitarias.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1600" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-22" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Desafíos Sociales: La tecnología puede causar divisiones sociales (acceso desigual, dependencia de dispositivos).&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1690" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1610" as="sourcePoint" />
+            <mxPoint x="1120" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1680" as="sourcePoint" />
+            <mxPoint x="1120" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1360" as="sourcePoint" />
+            <mxPoint x="830" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1440" as="sourcePoint" />
+            <mxPoint x="790" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Cultura&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Conceptos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1965" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-29" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Desafíos Sociales: La tecnología puede causar divisiones sociales (acceso desigual, dependencia de dispositivos).&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1690" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Cultura&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1820" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-31" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Conjunto de conocimientos, creencias, costumbres, arte, moral y normas de una sociedad.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1790" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-32" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Refleja la identidad de un grupo y se expresa en tradiciones, lengua, religión y valores.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1860" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-33" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ydv_G0Y2uCkz54jgv4v_-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1395" y="1860" as="sourcePoint" />
+            <mxPoint x="1465" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-34" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydv_G0Y2uCkz54jgv4v_-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1392.5" y="1890" as="sourcePoint" />
+            <mxPoint x="1467.5" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Diversidad Cultural&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1980" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-36" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Lingüística: Variedad de lenguas y dialectos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1930" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-37" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Religiosa: Distintas creencias y prácticas espirituales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1980" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Étnica: Diferencias en ascendencia y características físicas.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2030" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-39" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1385" y="1965" as="sourcePoint" />
+            <mxPoint x="1460" y="1925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydv_G0Y2uCkz54jgv4v_-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1396.25" y="2130" as="sourcePoint" />
+            <mxPoint x="1463.75" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Patrimonio Cultural&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-42" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Herencia cultural de una comunidad que se transmite a futuras generaciones.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2105" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="1930" as="sourcePoint" />
+            <mxPoint x="1180" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="2050" as="sourcePoint" />
+            <mxPoint x="1180" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Tipos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Digital&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-47" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Enfoque en prácticas digitales: internet, redes sociales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2240" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-48" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Tecnologica&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-49" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Conocimientos sobre creación y uso de tecnología avanzada.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2290" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-50" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;de la Innovacion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-53" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Fomento de ideas y productos nuevos para mejoras tecnológicas.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2360" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-54" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;de la Informacion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2430" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;consumo tecnologico&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-56" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Respeto y valoración de la diversidad.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2720" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-57" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Enfoque en el uso de dispositivos y productos tecnológicos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2480" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1396.25" y="2254.29" as="sourcePoint" />
+            <mxPoint x="1460" y="2254.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-59" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1396.25" y="2314.29" as="sourcePoint" />
+            <mxPoint x="1460" y="2314.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-60" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="2384.29" as="sourcePoint" />
+            <mxPoint x="1453.75" y="2384.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-61" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="2444.29" as="sourcePoint" />
+            <mxPoint x="1453.75" y="2444.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-62" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="2504.29" as="sourcePoint" />
+            <mxPoint x="1453.75" y="2504.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="2360" as="sourcePoint" />
+            <mxPoint x="1170" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="2400" as="sourcePoint" />
+            <mxPoint x="1170" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-65" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tipos de Tecnologia&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="840" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-67" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología de Información y Comunicación (TIC)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="960" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-70" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología Médica&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="910" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-71" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología Industrial&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="860" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-72" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología Energética&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="810" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-73" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología Doméstica&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="760" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-74" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Tecnología Agrícola&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="710" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="820" as="sourcePoint" />
+            <mxPoint x="1370" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="1010" as="sourcePoint" />
+            <mxPoint x="1300" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-78" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Impactos en la Sociedad&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="550" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-79" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Economía y Empleo: Genera empleos y mercados, pero causa automatización.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="610" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-80" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Cultura y Comportamiento: Cambia formas de comunicación y gratificación.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="530" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-81" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Salud y Bienestar: Mejora la salud, pero genera problemas como sedentarismo.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="450" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-82" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="550" as="sourcePoint" />
+            <mxPoint x="1370" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-83" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="690" as="sourcePoint" />
+            <mxPoint x="1310" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-84" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Vida Cotidiana&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="280" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-85" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Medicina: Avances como IA y telemedicina.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="380" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-86" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Educación: Democratización del conocimiento con aulas virtuales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="320" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-87" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Relaciones Sociales: Transición de interacciones físicas a virtuales&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="260" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-88" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Interculturalidad&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2940" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-89" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Definicion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2620" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-90" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Interacción y convivencia entre diferentes culturas, promoviendo respeto, comprensión mutua y enriquecimiento cultural.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2610" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-91" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1396.25" y="2649.17" as="sourcePoint" />
+            <mxPoint x="1460" y="2649.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-92" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Objetivos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2780" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-94" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Fortalecer la identidad cultural.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2760" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-95" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Combatir racismo y discriminación.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2800" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-96" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Fomentar diálogo y convivencia.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2840" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-97" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Crear espacios educativos inclusivos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2880" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-98" value="" style="endArrow=none;html=1;rounded=0;exitX=0.931;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ydv_G0Y2uCkz54jgv4v_-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1376.25" y="2720" as="sourcePoint" />
+            <mxPoint x="1440" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-99" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="2830" as="sourcePoint" />
+            <mxPoint x="1440" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-100" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Tipos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="3070" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-103" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Funcional: Coexistencia sin diálogo profundo, promueve tolerancia.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2940" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-104" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Relacional: Diálogo activo, colaboración entre culturas.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3020" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-105" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Crítica: Cambia estructuras de poder, justicia social.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3070" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-106" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Instrumental: Diversidad usada como recurso económico/político.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3120" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-107" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Asimilacionista: Cultura dominante absorbe otras.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3180" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-109" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="3060" as="sourcePoint" />
+            <mxPoint x="1450" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-110" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="3140" as="sourcePoint" />
+            <mxPoint x="1450" y="3220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-111" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Importancia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="3300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-112" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Fomenta cohesión social y reduce conflictos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3260" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-113" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Enriquecimiento a través de aprendizaje cultural.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3310" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-114" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;En educación: valora experiencias culturales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="3360" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-115" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="3740" as="sourcePoint" />
+            <mxPoint x="1280" y="3690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-116" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="3340" as="sourcePoint" />
+            <mxPoint x="1440" y="3410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-117" value="" style="endArrow=none;html=1;rounded=0;exitX=0.931;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1056" y="2925" as="sourcePoint" />
+            <mxPoint x="1150" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-118" value="" style="endArrow=none;html=1;rounded=0;exitX=0.931;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="3017.5" as="sourcePoint" />
+            <mxPoint x="1170" y="3350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-120" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="2400" as="sourcePoint" />
+            <mxPoint x="874" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-121" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="2640" as="sourcePoint" />
+            <mxPoint x="810" y="3320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-122" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Sociedad del Conocimiento&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3700" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-123" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Definicion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-124" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Definición: Sociedad donde el conocimiento y la información son esenciales para el desarrollo económico y social.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="3470" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydv_G0Y2uCkz54jgv4v_-124">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="3520" as="sourcePoint" />
+            <mxPoint x="1050" y="3470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-126" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Educación&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3650" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-127" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Objetivo: Que el alumno sea dueño de su aprendizaje y el maestro un facilitador.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="3570" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-128" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Promueve la innovación y el uso efectivo de la tecnología.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="3630" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-129" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Brechas Digitales&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="3730" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-131" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Acceso: Falta de internet en zonas rurales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="3700" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-132" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Uso: No saber utilizar plataformas educativas.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="3740" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-133" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Calidad de Uso: Internet lento o ineficaz para ciertas actividades.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="3780" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="3790" as="sourcePoint" />
+            <mxPoint x="1280" y="3840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-135" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="3640" as="sourcePoint" />
+            <mxPoint x="1060" y="3560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-136" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="3720" as="sourcePoint" />
+            <mxPoint x="1060" y="3830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-137" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Principios&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3940" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-138" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Acceso a la información: Garantizar igualdad en el acceso.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="3880" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-139" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Privacidad y Datos: Protección y transparencia en el uso de datos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="3950" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-140" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Desinformación: Compromiso con la veracidad.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="4010" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-141" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Responsabilidad en la Tecnología: Evaluar impactos éticos de IA y automatización.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="4050" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-142" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="4230" as="sourcePoint" />
+            <mxPoint x="1080" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-143" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="4015" as="sourcePoint" />
+            <mxPoint x="1070" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-144" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="3670" as="sourcePoint" />
+            <mxPoint x="800" y="3450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-145" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="3775" as="sourcePoint" />
+            <mxPoint x="770" y="4100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-146" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Daño Ambiental en el contexto global interdependiente&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="4480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-147" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ejemplos de daño ambiental&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="4240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-148" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Contaminación de aire, agua y suelo.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4190" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-149" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Deforestación y pérdida de hábitats.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4230" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-150" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Cambio climático y calentamiento global.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4270" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-151" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Sobreexplotación de recursos naturales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4310" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-152" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="4320" as="sourcePoint" />
+            <mxPoint x="1070" y="4350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-153" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Interdependencia global&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="4480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-154" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Económico: Crisis en un país afecta mercados y cadenas de suministro en otros.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4380" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-155" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Político: Decisiones, tratados y sanciones ambientales de un país influyen a nivel global.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4440" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-156" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Social y Cultural: Movimientos migratorios e intercambio de ideas amplían los efectos de los problemas y soluciones ambientales.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4500" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-157" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Ambiental: Contaminación y cambio climático en una región tienen impacto global (ej. aumento de temperaturas, eventos climáticos extremos).&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4590" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-158" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ydv_G0Y2uCkz54jgv4v_-153">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="4440" as="sourcePoint" />
+            <mxPoint x="1070" y="4370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-159" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="4550" as="sourcePoint" />
+            <mxPoint x="1070" y="4660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ydv_G0Y2uCkz54jgv4v_-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="4830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-160" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Implicaciones&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="4770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-161" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Biológicas: Pérdida de biodiversidad, alteración de ciclos ecológicos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4710" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-162" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Económicas: Aumento de costos en agricultura, salud y respuesta a desastres.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4780" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-163" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Sociales: Desplazamiento de comunidades, conflictos por recursos.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4850" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-164" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="4750" as="sourcePoint" />
+            <mxPoint x="1090" y="4700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-165" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ydv_G0Y2uCkz54jgv4v_-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="4830" as="sourcePoint" />
+            <mxPoint x="1090" y="4780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-167" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="4460" as="sourcePoint" />
+            <mxPoint x="780" y="4190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-168" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="4600" as="sourcePoint" />
+            <mxPoint x="780" y="4870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-170" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1900" as="sourcePoint" />
+            <mxPoint x="990" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-171" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="2180" as="sourcePoint" />
+            <mxPoint x="450" y="4880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ydv_G0Y2uCkz54jgv4v_-172" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;5°I&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;25/10/2024&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Emmanuel Buenrostro Briseño&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;22300891&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Ciencia, Tecnologia, Sociedad y Valores&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Susana Guadalupe Marquez Cobian&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Sociedad y Cultura&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="720" height="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
