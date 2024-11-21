@@ -1,3 +1,20 @@
+pant:	CLR 	P3.0
+	CLR	P3.1
+	mov	P1,#38H
+	lcall 	de5ms
+	mov	P1,#38H
+	lcall 	de5ms
+	mov	P1,#38H
+	lcall 	de5ms
+	mov	P1,#38H
+	lcall 	de5ms
+	mov	P1,#0CH
+	lcall	de5ms
+	mov	P1,#01H
+	lcall 	de5ms
+	mov	P1,#06H
+	lcall	de5ms
+	mov	P1,#80H
 inicio:	mov	R0,#2FH
 	mov	R1,#3FH
 	lcall	readc
@@ -31,6 +48,10 @@ readc:	lcall 	time
 	INC	R1
 	mov	@R1,A
 	mov	@R0,A
+	setb	P3.0
+	mov	P1,A
+	lcall 	de5ms
+	clr	P3.0
 	ret
 ord:	lcall	bubble
 	lcall	bubble
@@ -48,7 +69,44 @@ ord:	lcall	bubble
 	lcall	bubble
 	lcall	bubble
 	lcall	bubble
-	ljmp	pant
+
+imp:	mov	P1,#0C0H
+	lcall	de5ms
+	setb	P3.0
+	mov	P1,40H
+	lcall	de5ms
+	mov	P1,41H
+	lcall	de5ms
+	mov	P1,42H
+	lcall	de5ms
+	mov	P1,43H
+	lcall	de5ms
+	mov	P1,44H
+	lcall	de5ms
+	mov	P1,45H
+	lcall	de5ms
+	mov	P1,46H
+	lcall	de5ms
+	mov	P1,47H
+	lcall	de5ms
+	mov	P1,48H
+	lcall	de5ms
+	mov	P1,49H
+	lcall	de5ms
+	mov	P1,4AH
+	lcall	de5ms
+	mov	P1,4BH
+	lcall	de5ms
+	mov	P1,4CH
+	lcall	de5ms
+	mov	P1,4DH
+	lcall	de5ms
+	mov	P1,4EH
+	lcall	de5ms
+	mov	P1,4FH
+	lcall	de5ms
+	clr	P3.0
+	ljmp    time
 comp:	mov	A, 70H
 	mov	B, 71H
 	CLR	C
@@ -139,20 +197,7 @@ bubble:	mov	70H, 40H
 	mov	4FH,71H
 	ret
 
-pant:	CLR 	P3.0
-	CLR	P3.1
-	mov	P1,#38H
-	lcall 	de5ms
-	mov	P1,#38H
-	lcall 	de5ms
-	mov	P1,#38H
-	lcall 	de5ms
-	mov	P1,#38H
-	lcall 	de5ms
-	mov	P1,#0CH
-	lcall	de5ms
-	mov	P1,#01H
-	lcall 	de5ms
+
 
 de5ms:	SETB	P3.1
 	mov	R7, #0AH
@@ -163,7 +208,7 @@ aqui2:	DJNZ	R6, aqui2
 	RET
 
 
-
+time2:	ljmp 	time2
 time:	mov	R7,#40H
 paca:	mov	R6,#0FAH
 aca2:	MOV 	R5,#0FAH
