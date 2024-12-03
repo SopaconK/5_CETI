@@ -16,11 +16,13 @@ pant:	CLR 	P3.0
 	mov	P1,#06H
 	lcall	de5ms
 	mov	P1,#80H
+	mov 	3EH, #00H
+	mov	3FH, #00H
 inicio: mov	R0,#3EH
 
 	lcall	leer
 	mov	R2,3FH
-	mov	B,#0CH
+	mov	B,#0EH
 	mov	50h,#00H
 	MOV	51H,#00H
 	
@@ -88,13 +90,11 @@ coso1:	mov	A,52H
 	mov	P1,A
 	lcall 	de5ms
 	mov	A,53H
-	JZ	coso3
 	DEC	B
 	orl	A,#30H
 	mov	P1,A
 	lcall 	de5ms
 	mov	A,54H
-	JZ	coso4
 	DEC	B
 	orl	A,#30H
 	mov	P1,A
@@ -112,7 +112,6 @@ coso2: mov	A,53H
 	mov	P1,A
 	lcall 	de5ms
 	mov	A,54H
-	JZ	coso4
 	DEC	B
 	orl	A,#30H
 	mov	P1,A
