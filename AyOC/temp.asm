@@ -102,7 +102,7 @@ pant:		mov	R0,#14H
 		mov	TH0, #3Ch
 		mov	TL0, #0AFh
 		LJMP	CICLO
-
+;s
 
 
 bitabcd:	mov	52H,#00H
