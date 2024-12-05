@@ -1,0 +1,31 @@
+Inserting Values: 
+
+When a new key is inserted, it's always inserted at the leaf. 
+
+First we are going to search from the root until we find a leaf, then we're going to put the new value as a child of that leaf.
+
+This steps are followed while we're searching the leaf:
+
+>Start in the root
+>Compare the key with the current node
+>If the key is less than the the key of the actual node move to the left.
+>Else move to the right.
+>Repeat until find a leaf.
+
+When you find a leaf, if the new key is less than the value in the leaf, we put the new key in the left else we put the key in the right.
+
+
+Deleting values: 
+
+We have 3 cases.
+
+Case 1: A leaf node
+If we want to delete a leaf node, just delete it and nothing more.
+
+Case 2: A node with a single child
+
+Copy the child into the node and delete the node.
+
+Case 3: A node with both children.
+
+We find the sucessor of the node. Then swap values of the node and the sucessor, and delete the sucessor

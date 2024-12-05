@@ -1,14 +1,15 @@
-		ORG	0000h
+	
 		ljmp	inicio
+
+ciclo:		JB	TF0,temp2
+		ljmp 	ciclo
 		
-		ORG	000Bh
-		lcall 	temp
-		reti
-		
-temp:		mov	A,R0
+temp2:		clr	TF0
+		mov	A,R0
 		DEC	A
+		mov	R0,A
 		JZ	cero
-		ret
+		ljmp ciclo
 		
 cero:		mov	A,R1
 		inc	A
@@ -16,14 +17,17 @@ cero:		mov	A,R1
 		subb	A,#3EH
 		JNC	nocarry
 		lcall	imprimir
-		ret
+		mov	R0,#14H
+		mov	TH0, #3CH
+		mov	TL0, #0AFH
+		ljmp ciclo
 		
 nocarry:	mov	A,R2
 		inc	A
 		mov	R2,A
 		mov	R1,#00H
 		lcall	imprimir
-		ret
+		ljmp ciclo
 
 
 imprimir:	mov	P1,#80H
@@ -56,14 +60,16 @@ imprimir:	mov	P1,#80H
 		clr	P3.0
 		ret
 		
-inicio:		mov	TMOD, #08H
+inicio:		mov	TMOD, #09H
 		setb	TCON.4
-		setb	ET0
 		
-pant:		mov	R0,#7AH
+pant:		mov	R0,#14H
 		CLR 	P3.0
 		CLR	P3.1
 		CLR	P3.2
+		mov	60H, #00H
+		mov	R1,#00H
+		MOV	R2,#00H		
 		mov	P1,#38H
 		lcall 	de5ms
 		mov	P1,#38H
@@ -93,8 +99,10 @@ pant:		mov	R0,#7AH
 		lcall	de5ms
 		clr	p3.0
 		clr 	C
-		
-ciclo:		ljmp 	ciclo
+		mov	TH0, #3Ch
+		mov	TL0, #0AFh
+		LJMP	CICLO
+
 
 
 bitabcd:	mov	52H,#00H
@@ -129,7 +137,7 @@ uno:		MOV 	54H,60H
 		ret
 			
 
-de5ms:		;ret
+de5ms:		
 		SETB	P3.1
 		mov	R7, #0AH
 aca:		mov	R6,#0FAH
