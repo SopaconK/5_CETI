@@ -9,12 +9,14 @@ temp2:		clr	TF0
 		DEC	A
 		mov	R0,A
 		JZ	cero
+		mov	TH0, #3CH
+		mov	TL0, #0AFH
 		ljmp ciclo
 		
 cero:		mov	A,R1
 		inc	A
 		mov	R1,A
-		subb	A,#3EH
+		subb	A,#3BH
 		JNC	nocarry
 		lcall	imprimir
 		mov	R0,#14H
@@ -27,6 +29,9 @@ nocarry:	mov	A,R2
 		mov	R2,A
 		mov	R1,#00H
 		lcall	imprimir
+		mov	R0,#14H
+		mov	TH0, #3CH
+		mov	TL0, #0AFH
 		ljmp ciclo
 
 

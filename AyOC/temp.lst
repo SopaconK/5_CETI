@@ -1,6 +1,6 @@
 temp                                                                                                                    PAGE 1
                          1
-0000 020076              2                     ljmp    inicio
+0000 020084              2                     ljmp    inicio
                          3
 0003 208D03              4     ciclo:          JB      TF0,temp2
 0006 020003              5                     ljmp    ciclo
@@ -9,157 +9,161 @@ temp                                                                            
 000B E8                  8                     mov     A,R0
 000C 14                  9                     DEC     A
 000D F8                 10                     mov     R0,A
-000E 6003               11                     JZ      cero
-0010 020003             12                     ljmp ciclo
-                        13
-0013 E9                 14     cero:           mov     A,R1
-0014 04                 15                     inc     A
-0015 F9                 16                     mov     R1,A
-0016 943E               17                     subb    A,#3EH
-0018 500E               18                     JNC     nocarry
-001A 120033             19                     lcall   imprimir
-001D 7814               20                     mov     R0,#14H
-001F 758C3C             21                     mov     TH0, #3CH
-0022 758AAF             22                     mov     TL0, #0AFH
-0025 020003             23                     ljmp ciclo
-                        24
-0028 EA                 25     nocarry:        mov     A,R2
-0029 04                 26                     inc     A
-002A FA                 27                     mov     R2,A
-002B 7900               28                     mov     R1,#00H
-002D 120033             29                     lcall   imprimir
-0030 020003             30                     ljmp ciclo
-                        31
-                        32
-0033 759080             33     imprimir:       mov     P1,#80H
-0036 120125             34                     lcall   de5ms
-0039 8A60               35                     mov     60H,R2
-003B 1200E6             36                     lcall   bitabcd
-003E E553               37                     MOV     A,53H
-0040 4430               38                     ORL     A,#30H
-0042 D2B0               39                     setb    P3.0
-0044 F590               40                     MOV     P1,A
-0046 120125             41                     lcall   de5ms
-0049 E554               42                     MOV     A,54H
-004B 4430               43                     ORL     A,#30H
-004D F590               44                     mov     P1,A
-004F 120125             45                     lcall   de5ms
-0052 75903A             46                     mov     P1,#3AH
-0055 120125             47                     lcall   de5ms
-0058 C2B0               48                     clr     P3.0
-005A 8960               49                     MOV     60H,R1
-005C 1200E6             50                     lcall   bitabcd
-005F E553               51                     MOV     A,53H
-0061 4430               52                     ORL     A,#30H
-0063 D2B0               53                     setb    P3.0
-0065 F590               54                     MOV     P1,A
-0067 120125             55                     lcall   de5ms
-006A E554               56                     MOV     A,54H
-006C 4430               57                     ORL     A,#30H
-006E F590               58                     mov     P1,A
-0070 120125             59                     lcall   de5ms
-0073 C2B0               60                     clr     P3.0
-0075 22                 61                     ret
-                        62
-0076 758909             63     inicio:         mov     TMOD, #09H
-0079 D28C               64                     setb    TCON.4
-                        65
-007B 7814               66     pant:           mov     R0,#14H
-007D C2B0               67                     CLR     P3.0
-007F C2B1               68                     CLR     P3.1
-0081 C2B2               69                     CLR     P3.2
-0083 756000             70                     mov     60H, #00H
-0086 7900               71                     mov     R1,#00H
-0088 7A00               72                     MOV     R2,#00H
-008A 759038             73                     mov     P1,#38H
-008D 120125             74                     lcall   de5ms
-0090 759038             75                     mov     P1,#38H
-0093 120125             76                     lcall   de5ms
-0096 759038             77                     mov     P1,#38H
-0099 120125             78                     lcall   de5ms
-009C 759038             79                     mov     P1,#38H
-009F 120125             80                     lcall   de5ms
-00A2 75900C             81                     mov     P1,#0CH
-00A5 120125             82                     lcall   de5ms
-00A8 759001             83                     mov     P1,#01H
-00AB 120125             84                     lcall   de5ms
-00AE 759006             85                     mov     P1,#06H
-00B1 120125             86                     lcall   de5ms
-00B4 759080             87                     mov     P1,#80H
-00B7 120125             88                     lcall   de5ms
-00BA D2B0               89                     SETB    P3.0
-00BC 759030             90                     mov     P1,#30H
-00BF 120125             91                     lcall   de5ms
-00C2 759030             92                     mov     P1,#30H
-00C5 120125             93                     lcall   de5ms
-00C8 75903A             94                     mov     P1,#3AH
-00CB 120125             95                     lcall   de5ms
-00CE 759030             96                     mov     P1,#30H
-00D1 120125             97                     lcall   de5ms
-00D4 759030             98                     mov     P1,#30H
-00D7 120125             99                     lcall   de5ms
-00DA C2B0              100                     clr     p3.0
-00DC C3                101                     clr     C
-00DD 758C3C            102                     mov     TH0, #3Ch
-00E0 758AAF            103                     mov     TL0, #0AFh
-00E3 020003            104                     LJMP    CICLO
-                       105
-                       106
-                       107
-00E6 755200            108     bitabcd:        mov     52H,#00H
-00E9 755300            109                     mov     53H,#00H
-00EC 755400            110                     mov     54H,#00H
-00EF E560              111     cien:           mov     A,60H
-00F1 C3                112                     CLR     C
-00F2 C2D6              113                     CLR     AC
-00F4 9464              114                     subb    A,#64H
-00F6 5005              115                     JNC     ncarry1
-00F8 2464              116                     ADD     A,#64H
-00FA 020108            117                     LJMP    diez
-00FD F560              118     ncarry1:        MOV     60H,A
-00FF E552              119                     MOV     A,52H
-0101 2401              120                     ADD     A,#01H
-0103 F552              121                     MOV     52H,A
-0105 0200EF            122                     LJMP    cien
-                       123
-0108 E560              124     diez:           mov     A,60H
-010A C3                125                     CLR     C
-010B C2D6              126                     CLR     AC
-010D 940A              127                     subb    A,#0AH
-010F 5005              128                     JNC     ncarry2
-0111 240A              129                     ADD     A,#0AH
-0113 020121            130                     LJMP    uno
-0116 F560              131     ncarry2:        MOV     60H,A
-0118 E553              132                     MOV     A,53H
-011A 2401              133                     ADD     A,#01H
-011C F553              134                     MOV     53H,A
-011E 020108            135                     LJMP    diez
-0121 856054            136     uno:            MOV     54H,60H
-0124 22                137                     ret
-                       138
-                       139
-                       140     de5ms:
-0125 D2B1              141                     SETB    P3.1
-0127 7F0A              142                     mov     R7, #0AH
-0129 7EFA              143     aca:            mov     R6,#0FAH
-012B DEFE              144     aqui2:          DJNZ    R6, aqui2
-012D DFFA              145                     DJNZ    R7, aca
-012F C2B1              146                     CLR P3.1
-0131 22                147                     RET
-                       148
-                       149
+000E 6009               11                     JZ      cero
+0010 758C3C             12                     mov     TH0, #3CH
+0013 758AAF             13                     mov     TL0, #0AFH
+0016 020003             14                     ljmp ciclo
+                        15
+0019 E9                 16     cero:           mov     A,R1
+001A 04                 17                     inc     A
+001B F9                 18                     mov     R1,A
+001C 943B               19                     subb    A,#3BH
+001E 500E               20                     JNC     nocarry
+0020 120041             21                     lcall   imprimir
+0023 7814               22                     mov     R0,#14H
+0025 758C3C             23                     mov     TH0, #3CH
+0028 758AAF             24                     mov     TL0, #0AFH
+002B 020003             25                     ljmp ciclo
+                        26
+002E EA                 27     nocarry:        mov     A,R2
+002F 04                 28                     inc     A
+0030 FA                 29                     mov     R2,A
+0031 7900               30                     mov     R1,#00H
+0033 120041             31                     lcall   imprimir
+0036 7814               32                     mov     R0,#14H
+0038 758C3C             33                     mov     TH0, #3CH
+003B 758AAF             34                     mov     TL0, #0AFH
+003E 020003             35                     ljmp ciclo
+                        36
+                        37
+0041 759080             38     imprimir:       mov     P1,#80H
+0044 120133             39                     lcall   de5ms
+0047 8A60               40                     mov     60H,R2
+0049 1200F4             41                     lcall   bitabcd
+004C E553               42                     MOV     A,53H
+004E 4430               43                     ORL     A,#30H
+0050 D2B0               44                     setb    P3.0
+0052 F590               45                     MOV     P1,A
+0054 120133             46                     lcall   de5ms
+0057 E554               47                     MOV     A,54H
+0059 4430               48                     ORL     A,#30H
+005B F590               49                     mov     P1,A
+005D 120133             50                     lcall   de5ms
+0060 75903A             51                     mov     P1,#3AH
+0063 120133             52                     lcall   de5ms
+0066 C2B0               53                     clr     P3.0
+0068 8960               54                     MOV     60H,R1
+006A 1200F4             55                     lcall   bitabcd
+006D E553               56                     MOV     A,53H
+006F 4430               57                     ORL     A,#30H
+0071 D2B0               58                     setb    P3.0
+0073 F590               59                     MOV     P1,A
+0075 120133             60                     lcall   de5ms
+0078 E554               61                     MOV     A,54H
+007A 4430               62                     ORL     A,#30H
+007C F590               63                     mov     P1,A
+007E 120133             64                     lcall   de5ms
+0081 C2B0               65                     clr     P3.0
+0083 22                 66                     ret
+                        67
+0084 758909             68     inicio:         mov     TMOD, #09H
+0087 D28C               69                     setb    TCON.4
+                        70
+0089 7814               71     pant:           mov     R0,#14H
+008B C2B0               72                     CLR     P3.0
+008D C2B1               73                     CLR     P3.1
+008F C2B2               74                     CLR     P3.2
+0091 756000             75                     mov     60H, #00H
+0094 7900               76                     mov     R1,#00H
+0096 7A00               77                     MOV     R2,#00H
+0098 759038             78                     mov     P1,#38H
+009B 120133             79                     lcall   de5ms
+009E 759038             80                     mov     P1,#38H
+00A1 120133             81                     lcall   de5ms
+00A4 759038             82                     mov     P1,#38H
+00A7 120133             83                     lcall   de5ms
+00AA 759038             84                     mov     P1,#38H
+00AD 120133             85                     lcall   de5ms
+00B0 75900C             86                     mov     P1,#0CH
+00B3 120133             87                     lcall   de5ms
+00B6 759001             88                     mov     P1,#01H
+00B9 120133             89                     lcall   de5ms
+00BC 759006             90                     mov     P1,#06H
+00BF 120133             91                     lcall   de5ms
+00C2 759080             92                     mov     P1,#80H
+00C5 120133             93                     lcall   de5ms
+00C8 D2B0               94                     SETB    P3.0
+00CA 759030             95                     mov     P1,#30H
+00CD 120133             96                     lcall   de5ms
+00D0 759030             97                     mov     P1,#30H
+00D3 120133             98                     lcall   de5ms
+00D6 75903A             99                     mov     P1,#3AH
+00D9 120133            100                     lcall   de5ms
+00DC 759030            101                     mov     P1,#30H
+00DF 120133            102                     lcall   de5ms
+00E2 759030            103                     mov     P1,#30H
+00E5 120133            104                     lcall   de5ms
+00E8 C2B0              105                     clr     p3.0
+00EA C3                106                     clr     C
+00EB 758C3C            107                     mov     TH0, #3Ch
+00EE 758AAF            108                     mov     TL0, #0AFh
+00F1 020003            109                     LJMP    CICLO
+                       110
+                       111
+00F4 755200            112     bitabcd:        mov     52H,#00H
+00F7 755300            113                     mov     53H,#00H
+00FA 755400            114                     mov     54H,#00H
+00FD E560              115     cien:           mov     A,60H
+00FF C3                116                     CLR     C
+0100 C2D6              117                     CLR     AC
+0102 9464              118                     subb    A,#64H
+0104 5005              119                     JNC     ncarry1
+0106 2464              120                     ADD     A,#64H
+0108 020116            121                     LJMP    diez
+010B F560              122     ncarry1:        MOV     60H,A
+010D E552              123                     MOV     A,52H
+010F 2401              124                     ADD     A,#01H
+0111 F552              125                     MOV     52H,A
+0113 0200FD            126                     LJMP    cien
+                       127
+0116 E560              128     diez:           mov     A,60H
+0118 C3                129                     CLR     C
+0119 C2D6              130                     CLR     AC
+011B 940A              131                     subb    A,#0AH
+011D 5005              132                     JNC     ncarry2
+011F 240A              133                     ADD     A,#0AH
+0121 02012F            134                     LJMP    uno
+0124 F560              135     ncarry2:        MOV     60H,A
+0126 E553              136                     MOV     A,53H
+0128 2401              137                     ADD     A,#01H
+012A F553              138                     MOV     53H,A
+012C 020116            139                     LJMP    diez
+012F 856054            140     uno:            MOV     54H,60H
+0132 22                141                     ret
+                       142
+                       143
+                       144     de5ms:
+0133 D2B1              145                     SETB    P3.1
+0135 7F0A              146                     mov     R7, #0AH
+0137 7EFA              147     aca:            mov     R6,#0FAH
+0139 DEFE              148     aqui2:          DJNZ    R6, aqui2
+013B DFFA              149                     DJNZ    R7, aca
+013D C2B1              150                     CLR P3.1
+013F 22                151                     RET
+                       152
+                       153
 ****WARNING:Missing`END'directive
 ASSEMBLY COMPLETE, NO ERRORS FOUND, 1 WARNING
 
 
 ERROR SUMMARY:
-Line 149, WARNING:Missing`END'directive
+Line 153, WARNING:Missing`END'directive
 
 SYMBOL TABLE:
 ??MCU_8051_IDE . . . . . . . . . . .  N  NUMB  8051H  NOT USED
 ??VERSION. . . . . . . . . . . . . .  N  NUMB  0149H  NOT USED
 AC . . . . . . . . . . . . . . . . .  B  ADDR  00D6H
-ACA. . . . . . . . . . . . . . . . .  C  ADDR  0129H
+ACA. . . . . . . . . . . . . . . . .  C  ADDR  0137H
 ACC. . . . . . . . . . . . . . . . .  D  ADDR  00E0H  NOT USED
 ACSR . . . . . . . . . . . . . . . .  D  ADDR  0097H  NOT USED
 ADCF . . . . . . . . . . . . . . . .  D  ADDR  00F6H  NOT USED
@@ -167,13 +171,13 @@ ADCLK. . . . . . . . . . . . . . . .  D  ADDR  00F2H  NOT USED
 ADCON. . . . . . . . . . . . . . . .  D  ADDR  00F3H  NOT USED
 ADDH . . . . . . . . . . . . . . . .  D  ADDR  00F5H  NOT USED
 ADDL . . . . . . . . . . . . . . . .  D  ADDR  00F4H  NOT USED
-AQUI2. . . . . . . . . . . . . . . .  C  ADDR  012BH
+AQUI2. . . . . . . . . . . . . . . .  C  ADDR  0139H
 AUXR . . . . . . . . . . . . . . . .  D  ADDR  008EH  NOT USED
 AUXR1. . . . . . . . . . . . . . . .  D  ADDR  00A2H  NOT USED
 B. . . . . . . . . . . . . . . . . .  D  ADDR  00F0H  NOT USED
 BDRCON . . . . . . . . . . . . . . .  D  ADDR  009BH  NOT USED
 BDRCON_1 . . . . . . . . . . . . . .  D  ADDR  009CH  NOT USED
-BITABCD. . . . . . . . . . . . . . .  C  ADDR  00E6H
+BITABCD. . . . . . . . . . . . . . .  C  ADDR  00F4H
 BRL. . . . . . . . . . . . . . . . .  D  ADDR  009AH  NOT USED
 CCAP0H . . . . . . . . . . . . . . .  D  ADDR  00FAH  NOT USED
 CCAP0L . . . . . . . . . . . . . . .  D  ADDR  00EAH  NOT USED
@@ -199,11 +203,11 @@ CCF2 . . . . . . . . . . . . . . . .  B  ADDR  00DAH  NOT USED
 CCF3 . . . . . . . . . . . . . . . .  B  ADDR  00DBH  NOT USED
 CCF4 . . . . . . . . . . . . . . . .  B  ADDR  00DCH  NOT USED
 CCON . . . . . . . . . . . . . . . .  D  ADDR  00D8H  NOT USED
-CERO . . . . . . . . . . . . . . . .  C  ADDR  0013H
+CERO . . . . . . . . . . . . . . . .  C  ADDR  0019H
 CFINT. . . . . . . . . . . . . . . .  C  ADDR  0033H  NOT USED
 CH . . . . . . . . . . . . . . . . .  D  ADDR  00F9H  NOT USED
 CICLO. . . . . . . . . . . . . . . .  C  ADDR  0003H
-CIEN . . . . . . . . . . . . . . . .  C  ADDR  00EFH
+CIEN . . . . . . . . . . . . . . . .  C  ADDR  00FDH
 CKCON. . . . . . . . . . . . . . . .  D  ADDR  008FH  NOT USED
 CKCON0 . . . . . . . . . . . . . . .  D  ADDR  008FH  NOT USED
 CKRL . . . . . . . . . . . . . . . .  D  ADDR  0097H  NOT USED
@@ -215,8 +219,8 @@ CPRL2. . . . . . . . . . . . . . . .  B  ADDR  00C8H  NOT USED
 CR . . . . . . . . . . . . . . . . .  B  ADDR  00DEH  NOT USED
 CT2. . . . . . . . . . . . . . . . .  B  ADDR  00C9H  NOT USED
 CY . . . . . . . . . . . . . . . . .  B  ADDR  00D7H  NOT USED
-DE5MS. . . . . . . . . . . . . . . .  C  ADDR  0125H
-DIEZ . . . . . . . . . . . . . . . .  C  ADDR  0108H
+DE5MS. . . . . . . . . . . . . . . .  C  ADDR  0133H
+DIEZ . . . . . . . . . . . . . . . .  C  ADDR  0116H
 DP0H . . . . . . . . . . . . . . . .  D  ADDR  0083H  NOT USED
 DP0L . . . . . . . . . . . . . . . .  D  ADDR  0082H  NOT USED
 DP1H . . . . . . . . . . . . . . . .  D  ADDR  0085H  NOT USED
@@ -241,8 +245,8 @@ FE . . . . . . . . . . . . . . . . .  B  ADDR  009FH  NOT USED
 IE . . . . . . . . . . . . . . . . .  D  ADDR  00A8H  NOT USED
 IE0. . . . . . . . . . . . . . . . .  B  ADDR  0089H  NOT USED
 IE1. . . . . . . . . . . . . . . . .  B  ADDR  008BH  NOT USED
-IMPRIMIR . . . . . . . . . . . . . .  C  ADDR  0033H
-INICIO . . . . . . . . . . . . . . .  C  ADDR  0076H
+IMPRIMIR . . . . . . . . . . . . . .  C  ADDR  0041H
+INICIO . . . . . . . . . . . . . . .  C  ADDR  0084H
 INT0 . . . . . . . . . . . . . . . .  B  ADDR  00B2H  NOT USED
 INT1 . . . . . . . . . . . . . . . .  B  ADDR  00B3H  NOT USED
 IP . . . . . . . . . . . . . . . . .  D  ADDR  00B8H  NOT USED
@@ -256,9 +260,9 @@ IT1. . . . . . . . . . . . . . . . .  B  ADDR  008AH  NOT USED
 KBE. . . . . . . . . . . . . . . . .  D  ADDR  009DH  NOT USED
 KBF. . . . . . . . . . . . . . . . .  D  ADDR  009EH  NOT USED
 KBLS . . . . . . . . . . . . . . . .  D  ADDR  009CH  NOT USED
-NCARRY1. . . . . . . . . . . . . . .  C  ADDR  00FDH
-NCARRY2. . . . . . . . . . . . . . .  C  ADDR  0116H
-NOCARRY. . . . . . . . . . . . . . .  C  ADDR  0028H
+NCARRY1. . . . . . . . . . . . . . .  C  ADDR  010BH
+NCARRY2. . . . . . . . . . . . . . .  C  ADDR  0124H
+NOCARRY. . . . . . . . . . . . . . .  C  ADDR  002EH
 OSCCON . . . . . . . . . . . . . . .  D  ADDR  0086H  NOT USED
 OV . . . . . . . . . . . . . . . . .  B  ADDR  00D2H  NOT USED
 P. . . . . . . . . . . . . . . . . .  B  ADDR  00D0H  NOT USED
@@ -274,7 +278,7 @@ P4 . . . . . . . . . . . . . . . . .  D  ADDR  00C0H  NOT USED
 P4M1 . . . . . . . . . . . . . . . .  D  ADDR  00D6H  NOT USED
 P4M2 . . . . . . . . . . . . . . . .  D  ADDR  00E4H  NOT USED
 P5 . . . . . . . . . . . . . . . . .  D  ADDR  00E8H  NOT USED
-PANT . . . . . . . . . . . . . . . .  C  ADDR  007BH  NOT USED
+PANT . . . . . . . . . . . . . . . .  C  ADDR  0089H  NOT USED
 PC . . . . . . . . . . . . . . . . .  B  ADDR  00BEH  NOT USED
 PCON . . . . . . . . . . . . . . . .  D  ADDR  0087H  NOT USED
 PPCL . . . . . . . . . . . . . . . .  B  ADDR  00BEH  NOT USED
@@ -347,7 +351,7 @@ TR0. . . . . . . . . . . . . . . . .  B  ADDR  008CH  NOT USED
 TR1. . . . . . . . . . . . . . . . .  B  ADDR  008EH  NOT USED
 TR2. . . . . . . . . . . . . . . . .  B  ADDR  00CAH  NOT USED
 TXD. . . . . . . . . . . . . . . . .  B  ADDR  00B1H  NOT USED
-UNO. . . . . . . . . . . . . . . . .  C  ADDR  0121H
+UNO. . . . . . . . . . . . . . . . .  C  ADDR  012FH
 WDTCON . . . . . . . . . . . . . . .  D  ADDR  00A7H  NOT USED
 WDTPRG . . . . . . . . . . . . . . .  D  ADDR  00A7H  NOT USED
 WDTRST . . . . . . . . . . . . . . .  D  ADDR  00A6H  NOT USED
